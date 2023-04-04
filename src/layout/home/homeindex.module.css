@@ -1,0 +1,22 @@
+.Fix {
+    display: flex;
+    width: 100%;
+}
+
+
+/* .Fixcontent{
+    width: 70%;
+} */
+
+.Fix>.fixcontent {
+    width: 80%;
+    z-index: 0;
+}
+
+.wrapp {
+    position: relative;
+    background-color: #2d2c2ce0;
+    width: 20%;
+    right: 0;
+    height: 88.9vh;
+}

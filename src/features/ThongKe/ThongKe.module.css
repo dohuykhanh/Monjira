@@ -1,0 +1,27 @@
+.DoanhThuThongKe{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 45px;
+    padding: 0 2rem;
+    background-color: aqua;
+    width: 100%;
+}
+.DoanhThuThongKeLuuVet{
+    display: flex;
+}
+
+.DoanhThuThongKeLuuVet  .active_Menu{
+    color: red;
+}
+
+.DoanhThuThongKeLuuVet  p {
+  margin: 0 2rem;
+  color: black;
+  text-decoration: none;
+}
+.DoanhThuThongKeLuuVet > p:hover{
+    color: red;
+    cursor: pointer;
+}
+

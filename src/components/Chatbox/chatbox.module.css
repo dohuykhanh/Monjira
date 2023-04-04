@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat, sans-serif;
+}
+
+.chat {
+    position: absolute;
+    left: 0px;
+    width: 250px;
+    align-items: center;
+    bottom: 0px;
+}
+
+.chatbox {
+    width: 306px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: #e5e5e5;
+}
+
+.tinnhan {
+    width: 307px;
+}
+
+.messages {
+    background-color: #ddddf7;
+    margin: -19px;
+    height: calc(100% - -38px);
+    overflow: scroll;
+    width: calc(100% - -43px);
+    display: flex;
+    flex-direction: column;
+}
+.tingui{
+    color: black;
+    border-radius:   10px 10px  10px 10px;
+    background-color:#45b6fe;
+    height: fit-content;
+    width: fit-content;
+    margin: 10px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.tinNhan{
+    color: red;
+    border-radius:   10px 10px  10px 10px;
+    background-color:#45b6fe;
+    height: fit-content;
+    width: fit-content;
+    margin: 10px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    /* justify-content: center; */
+}
+.tinNhan > p{
+    margin: 0;
+    padding: 0;
+}
+
+.tingui > p{
+    margin: 0;
+    padding: 0;
+}
+
+.fixformMess{
+    width: 307px;
+    
+}
+/* .vitrichat{
+    background-color: aqua;
+    width: 500px;
+    position: relative;
+    left: 100px;
+} */
+.trchat{
+    /* width: 100%; */
+    /* position: relative; */
+    /* left: 158px; */
+}

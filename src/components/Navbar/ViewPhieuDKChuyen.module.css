@@ -1,0 +1,34 @@
+.modalBackgroundChuyen {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.nutChuyen {
+    /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10px;
+}
+
+.modalContainerChuyen {
+    display: flex;
+    border: none;
+    background-color: #18c6e1;
+    position: relative;
+    top: 400px;
+    left: 637px;
+    width: 306px;
+    height: 642px;
+    z-index: 1;
+}
